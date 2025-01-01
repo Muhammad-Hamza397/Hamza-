@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Leaderboard</title>
+    <link rel="stylesheet" href="242812 style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">GameStats</div>
+        <div class="nav-links">
+            <a href="242812 index.html" class="active">Home</a>
+            <a href="242812 about.html">About</a>
+            <a href="242812 contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Live Gaming Leaderboard</h1>
+        
+        <div class="search-section">
+            <select id="gameSelect">
+                <option value="">All Games</option>
+                <option value="pubg">PUBG</option>
+                <option value="freefire">Free Fire</option>
+                <option value="minecraft">Minecraft</option>
+                <option value="pool">8 Ball Pool</option>
+            </select>
+            <input type="text" id="playerSearch" placeholder="Search player...">
+        </div>
+
+        <div class="leaderboard">
+            <div class="leaderboard-header">
+                <span class="rank">Rank</span>
+                <span class="player">Player</span>
+                <span class="game">Game</span>
+                <span class="score">Score</span>
+            </div>
+            <div id="leaderboardList"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 GameStats. All rights reserved.</p>
+    </footer>
+
+    <script src="242812 script.js"></script>
+</body>
+</html>
